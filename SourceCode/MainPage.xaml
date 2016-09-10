@@ -9,7 +9,7 @@
 
     <Grid x:Name="root" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
        <StackPanel VerticalAlignment="Center" Margin="10">
-            <TextBox x:Name="txt" Text="{x:Bind Model.FullName, Mode=TwoWay}" PlaceholderText="Enater name and Submit" />
+            <TextBox x:Name="txt" Text="{x:Bind Model.FullName, Mode=TwoWay}" PlaceholderText="Enter name and Submit" />
             <Button Content="Submit" HorizontalAlignment="Center"  Margin="10" Click="Button_Click"/>
         </StackPanel>
     </Grid>
